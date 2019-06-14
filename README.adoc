@@ -1,0 +1,31 @@
+= BackItUp - Mediawiki Edition
+Firstname Lastname <exhalibut@dementedkitty.com>
+1.0, 2019-06-14
+:toc:
+:icons: font
+
+A shell script meant to create backups for a Mediawiki installation
+
+== Features
+
+* Database backup via mysqldump
+* Static HTML copy of the wiki via DumpHTML extension
+* File compression via zip
+* Basic file encryption via zipcrypto
+* Encrypted file transmission via LFTP
+
+== Requirements
+
+Initially written for and tested using
+
+* Mediawiki version ##
+* Ubuntu 12.04 LTS server
+* mysqldump v4.5.4
+* zip v3.0
+* LFTP v4.8.1
+* https://www.mediawiki.org/wiki/Extension:DumpHTML[Extension:DumpHTML v1.18.0]
+
+== To-do
+
+See https://github.com/ExHalibut/backitup-mw/labels/enhancement[Enhancements]
+
