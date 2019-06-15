@@ -11,8 +11,10 @@ A shell script meant to create backups for a Mediawiki installation
 * Database backup via mysqldump
 * Static HTML copy of the wiki via DumpHTML extension
 * File compression via zip
-* Basic file encryption via zipcrypto
-* Encrypted file transmission via LFTP
+* Encrypted file transmission via LFTP using TLS
+* Very basic at-rest file encryption via PKZIP
+
+WARNING: While the encryption during transmission methos used by this script is sound, the at-rest file encryption method is vulnerable. Follow https://github.com/ExHalibut/backitup-mw/issues/5[this enhancement request] for future updates on the matter
 
 == Requirements
 
