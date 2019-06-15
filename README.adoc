@@ -14,7 +14,7 @@ A shell script meant to create backups for a Mediawiki installation
 * Encrypted file transmission via LFTP using TLS
 * Very basic at-rest file encryption via PKZIP
 
-WARNING: While the encryption during transmission methos used by this script is sound, the at-rest file encryption method is vulnerable. Follow https://github.com/ExHalibut/backitup-mw/issues/5[this enhancement request] for future updates on the matter
+WARNING: While the encryption-during-transmission method used by this script is sound, the at-rest file encryption method is vulnerable. Follow https://github.com/ExHalibut/backitup-mw/issues/5[this enhancement request] for future updates on the matter
 
 == Requirements
 
